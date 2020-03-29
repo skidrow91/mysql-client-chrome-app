@@ -1,0 +1,15 @@
+{
+    "name": "Mysql/Mariadb Client",
+    "description": "Mysql/Mariadb Client",
+    "version": "1.0",
+    "manifest_version": 2,
+    "app": {
+      "background": {
+        "scripts": ["background.js"]
+      }
+    },
+    "sockets": {
+      "tcp": { "connect": "*" },
+      "udp": { "send": "*" }
+    }
+  }
